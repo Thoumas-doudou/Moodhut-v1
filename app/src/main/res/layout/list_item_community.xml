@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp">
+
+        <ImageView
+            android:id="@+id/iv_dancer_avatars"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_user" />
+
+        <TextView
+            android:id="@+id/tv_dancer_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="中微子"
+            app:layout_constraintStart_toEndOf="@+id/iv_dancer_avatars"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_dancer_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="发表时间"
+            app:layout_constraintStart_toEndOf="@+id/iv_dancer_avatars"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dancer_nickname" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_dancer_contentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:text="热火共和国和水果黄瓜v的教会大家觉得有示范点士大夫就恢复健康积极但还是规划规划士大夫嘎嘎润肤乳液数据的股份共计花费设计规范几乎是个回复手段和国防建设地方v是DHL付款后可是看过忽然规划JFK热火共和国和水果黄瓜v的教会大家觉得有示范点士大夫就恢复健康积极但还是规划规划士大夫嘎嘎润肤乳液数据的股份共计花费设计规范几乎是个回复手段和国防建设地方v是DHL付款后可是看过忽然规划J热火共和国和水果黄瓜v的教会大家觉得有示范点士大夫就恢复健康积极但还是规划规划士大夫嘎嘎润肤乳液数据的股份共计花费设计规范几乎是个回复手段和国防建设地方v是DHL付款后可是看过忽然规划J" />
+
+    <ImageView
+        android:id="@+id/iv_dancer_contentImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        app:srcCompat="@drawable/ic_weixin" />
+
+    <TextView
+        android:id="@+id/tv_dancer_readNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="浏览35次" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="24dp">
+
+        <ImageView
+            android:id="@+id/iv_dancer_transmit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_transmit" />
+
+        <TextView
+            android:id="@+id/tv_transmit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="20" />
+
+        <ImageView
+            android:id="@+id/iv_dancer_remark"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_remark" />
+
+        <TextView
+            android:id="@+id/tv_dancer_remark"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="3" />
+
+        <ImageView
+            android:id="@+id/iv_dancer_support"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_endorse" />
+
+        <TextView
+            android:id="@+id/tv_dancer_support"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="23" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginVertical="8dp"
+        android:background="#74706F" />
+
+</LinearLayout>
